@@ -1,0 +1,278 @@
+@import './mixins';
+
+.wrapper{
+    background-color: #FFF;
+
+    .topbar__btns{
+        button{
+            @extend %blue_btn;
+        }
+    }
+
+    .price__in{
+        .pricing__title{
+            h3{
+                margin-top: 50px;
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: 600;
+                @include display_center;
+                justify-content: center;
+            }
+    
+            b{
+                @include display_center;
+                justify-content: center;
+                margin-top: 32px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 60px;
+            }
+    
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                @include display_center;
+                justify-content: center;
+                margin-top: 16px;
+            }
+        }
+    
+        .price__card{
+            margin-top: 49px;
+        }
+    }
+
+
+    .enterprise{
+        padding: 52px 0;
+        background-color: #22343D;
+        .enterprise__title{
+            @include display_center;
+            justify-content: center;
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 600;
+            color: #FFF
+        }
+    
+        .enterprise__desc{
+            @include display_center;
+            justify-content: center;
+            font-size: 34px;
+            line-height: 51px;
+            font-weight: 700;
+            margin: 20px 0 16px 0;
+            color: #FFF
+        }
+    
+        .enterprise__paragraph{
+            @include display_center;
+            justify-content: center;
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: 400;
+            color: #FFF
+        }
+
+        .enterprise__btn{
+            @include display_center;
+            justify-content: center;
+            margin-top: 32px;
+            button{
+                @extend %blue_btn;
+            }
+        }
+    }
+
+    .pricing__product{
+        padding: 150px 0;
+
+        .product__title{
+            @include display_center;
+            justify-content: center;
+            h3{
+                font-size: 34px;
+                line-height: 51px;
+                font-weight: 700;
+                color: #FFF;
+            }
+        }
+
+        .product__makets{
+            margin-top: 56px;
+            display: flex;
+            gap: 0 60px;
+
+            .product__makets--right--in{
+                display: flex;
+                flex-direction: column;
+                .makets__right--title{
+                    display: flex;
+                    align-items: center;
+                    gap: 0 16px;
+                    h3{
+                        font-size: 24px;
+                        line-height: 36px;
+                        font-weight: 600;
+                        color: #FFF;
+                    }
+
+                }
+                .makets__right--paragraph{
+                    margin-top: 23px;
+                    p{
+                        color: #FFF;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+
+                .product__makets--right:nth-last-child(2){
+                    margin-top: 32px;
+                }
+                .product__makets--right:nth-last-child(1){
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+
+    .question{
+        padding-bottom: 150px;
+        color: #FFF;
+
+        .question__title{
+            @include display_center;
+            justify-content: center;
+            h3{
+                font-size: 34px;
+                line-height: 51px;
+                font-weight: 700;
+            }
+            img{
+                cursor: pointer;
+            }
+        }
+        .question__desc{
+            @include display_center;
+            justify-content: center;
+            margin-top: 16px;
+
+            p{
+                font-size: 18px;
+                line-height: 27px;
+
+            }
+        }
+
+        .question__examples{
+            @include display_center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 50px;
+            .question__examples1{
+                max-width: 920px;
+                width: 100%;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #22343D;
+                .question__examples1--title{
+    
+                    @include display_center;
+                    gap: 0 16px;
+    
+                    p{
+                        font-size: 18px;
+                        line-height: 27px;
+                        font-weight: 500;
+                    }
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .question__examples2{
+                margin-top: 20px;
+                max-width: 920px;
+                width: 100%;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #22343D;
+                .question__examples1--title{
+    
+                    @include display_center;
+                    gap: 0 16px;
+    
+                    p{
+                        font-size: 18px;
+                        line-height: 27px;
+                        font-weight: 500;
+                    }
+                    img{
+                        cursor: pointer;
+                    }
+                }
+
+                .question__examples2--paragraph{
+                    margin-top: 20px;
+                    p{
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .question__examples3{
+                margin-top: 20px;
+                max-width: 920px;
+                width: 100%;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #22343D;
+                .question__examples1--title{
+    
+                    @include display_center;
+                    gap: 0 16px;
+    
+                    p{
+                        font-size: 18px;
+                        line-height: 27px;
+                        font-weight: 500;
+                    }
+
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .question__examples4{
+                margin-top: 20px;
+                max-width: 920px;
+                width: 100%;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #22343D;
+                .question__examples1--title{
+    
+                    @include display_center;
+                    gap: 0 16px;
+    
+                    p{
+                        font-size: 18px;
+                        line-height: 27px;
+                        font-weight: 500;
+                    }
+
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+}
+

@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-.footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .navbar .navbar__left .navbar__btns button, .topbar__right .topbar__btns button {
+.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .navbar .navbar__left .navbar__btns button, .topbar__right .topbar__btns button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -15,14 +15,10 @@
   line-height: 24px;
   cursor: pointer;
 }
-.footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .navbar .navbar__left .navbar__btns button:hover, .topbar__right .topbar__btns button:hover {
+.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .navbar .navbar__left .navbar__btns button:hover, .topbar__right .topbar__btns button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
-}
-
-.header {
-  height: 100vh;
 }
 
 .topbar {
@@ -107,7 +103,7 @@
   font-style: normal;
 }
 
-.footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button {
+.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -118,7 +114,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover {
+.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -507,7 +503,7 @@
   font-style: normal;
 }
 
-.footer .footer__row .footer__col4 .footer__col4--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button {
+.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -518,7 +514,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.footer .footer__row .footer__col4 .footer__col4--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover {
+.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -607,6 +603,272 @@
   font-size: 16px;
   line-height: 30px;
   color: #FFF;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button, .footer .footer__row .footer__col4 .footer__col4--btn button {
+  padding: 10px 25px;
+  color: #FFF;
+  background-color: #02897A;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover {
+  color: #FFF;
+  border: 2px solid #02897A;
+  background-color: transparent;
+}
+
+.wrapper {
+  background-color: #FFF;
+}
+.wrapper .price__in .pricing__title h3 {
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .price__in .pricing__title b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+.wrapper .price__in .pricing__title p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.wrapper .price__in .price__card {
+  margin-top: 49px;
+}
+.wrapper .enterprise {
+  padding: 52px 0;
+  background-color: #22343D;
+}
+.wrapper .enterprise .enterprise__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #FFF;
+}
+.wrapper .enterprise .enterprise__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  line-height: 51px;
+  font-weight: 700;
+  margin: 20px 0 16px 0;
+  color: #FFF;
+}
+.wrapper .enterprise .enterprise__paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #FFF;
+}
+.wrapper .enterprise .enterprise__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+.wrapper .pricing__product {
+  padding: 150px 0;
+}
+.wrapper .pricing__product .product__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .pricing__product .product__title h3 {
+  font-size: 34px;
+  line-height: 51px;
+  font-weight: 700;
+  color: #FFF;
+}
+.wrapper .pricing__product .product__makets {
+  margin-top: 56px;
+  display: flex;
+  gap: 0 60px;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .makets__right--title {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .makets__right--title h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #FFF;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .makets__right--paragraph {
+  margin-top: 23px;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .makets__right--paragraph p {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 28px;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .product__makets--right:nth-last-child(2) {
+  margin-top: 32px;
+}
+.wrapper .pricing__product .product__makets .product__makets--right--in .product__makets--right:nth-last-child(1) {
+  margin-top: 32px;
+}
+.wrapper .question {
+  padding-bottom: 150px;
+  color: #FFF;
+}
+.wrapper .question .question__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .question .question__title h3 {
+  font-size: 34px;
+  line-height: 51px;
+  font-weight: 700;
+}
+.wrapper .question .question__title img {
+  cursor: pointer;
+}
+.wrapper .question .question__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.wrapper .question .question__desc p {
+  font-size: 18px;
+  line-height: 27px;
+}
+.wrapper .question .question__examples {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.wrapper .question .question__examples .question__examples1 {
+  max-width: 920px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #22343D;
+}
+.wrapper .question .question__examples .question__examples1 .question__examples1--title {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.wrapper .question .question__examples .question__examples1 .question__examples1--title p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.wrapper .question .question__examples .question__examples1 .question__examples1--title img {
+  cursor: pointer;
+}
+.wrapper .question .question__examples .question__examples2 {
+  margin-top: 20px;
+  max-width: 920px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #22343D;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples1--title {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples1--title p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples1--title img {
+  cursor: pointer;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples2--paragraph {
+  margin-top: 20px;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples2--paragraph p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.wrapper .question .question__examples .question__examples2 .question__examples2--paragraph img {
+  cursor: pointer;
+}
+.wrapper .question .question__examples .question__examples3 {
+  margin-top: 20px;
+  max-width: 920px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #22343D;
+}
+.wrapper .question .question__examples .question__examples3 .question__examples1--title {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.wrapper .question .question__examples .question__examples3 .question__examples1--title p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.wrapper .question .question__examples .question__examples3 .question__examples1--title img {
+  cursor: pointer;
+}
+.wrapper .question .question__examples .question__examples4 {
+  margin-top: 20px;
+  max-width: 920px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #22343D;
+}
+.wrapper .question .question__examples .question__examples4 .question__examples1--title {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+}
+.wrapper .question .question__examples .question__examples4 .question__examples1--title p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.wrapper .question .question__examples .question__examples4 .question__examples1--title img {
+  cursor: pointer;
 }
 
 * {

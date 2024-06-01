@@ -25,3 +25,21 @@
         background-color: transparent;
     }
 }
+
+
+%pricing_btn{
+    padding: 10px 25px;
+    color: #FFF;
+    background-color: #02897A;
+    border-radius: 5px;
+    border:2px solid transparent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    &:hover{
+        color: #02897A;
+        border: 2px solid #02897A;
+        background-color: transparent;
+    }
+}
