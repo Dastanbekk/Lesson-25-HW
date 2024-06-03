@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .navbar .navbar__left .navbar__btns button, .topbar__right .topbar__btns button {
+.work__product .work__product--btn button, .wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .navbar .navbar__left .navbar__btns button, .topbar__right .topbar__btns button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -15,7 +15,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .navbar .navbar__left .navbar__btns button:hover, .topbar__right .topbar__btns button:hover {
+.work__product .work__product--btn button:hover, .wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .navbar .navbar__left .navbar__btns button:hover, .topbar__right .topbar__btns button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -66,10 +66,24 @@
   align-items: center;
   gap: 0 24px;
 }
+.topbar__right .topbar__btns img {
+  cursor: pointer;
+}
+.topbar__right .topbar__menu {
+  display: none;
+}
+.topbar__right .topbar__users--btn {
+  display: none;
+}
+.topbar__right .topbar__users--btn button {
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #02897A;
+}
+
 .navbar {
   padding-top: 25px;
-  display: flex;
-  align-items: center;
   color: #FFF;
 }
 .navbar .navbar__left h3 {
@@ -97,13 +111,31 @@
   text-decoration: none;
 }
 
+@media (max-width: 940px) {
+  .topbar .topbar__right--links {
+    display: none;
+  }
+  .topbar .topbar__btns .primary__btn {
+    display: none;
+  }
+  .topbar .topbar__btns .secondary__btn {
+    display: none;
+  }
+  .topbar .topbar__menu {
+    display: block;
+    cursor: pointer;
+  }
+  .topbar .topbar__users--btn {
+    display: block;
+  }
+}
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button {
+.work__product .work__product--btn button, .wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .price__in .price__cards .price__card .price__card--btn button, .thirt__section .thirt__section--btn button, .first__in .first__section--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -114,7 +146,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover {
+.work__product .work__product--btn button:hover, .wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .thirt__section .thirt__section--btn button:hover, .first__in .first__section--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -497,13 +529,29 @@
   color: #02897A;
 }
 
+@media (max-width: 960px) {
+  .companies__card .companies__left .companies__left--title h3 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .companies__card .companies__left .companies__left--button {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .companies__card .companies__left .companies__left--button button {
+    padding: 7px 20px;
+  }
+  .companies__card .companies__right img {
+    width: 200px;
+  }
+}
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button {
+.work__product .work__product--btn button, .wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .footer .footer__row .footer__col4 .footer__col4--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -514,7 +562,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover {
+.work__product .work__product--btn button:hover, .wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -527,6 +575,7 @@
   padding-bottom: 8px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: #FFF;
 }
 .footer .footer__row .footer__col1 .footer__col1--logo a {
@@ -611,7 +660,7 @@
   font-style: normal;
 }
 
-.wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button, .footer .footer__row .footer__col4 .footer__col4--btn button {
+.work__product .work__product--btn button, .wrapper .enterprise .enterprise__btn button, .wrapper .topbar__btns button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button, .footer .footer__row .footer__col4 .footer__col4--btn button {
   padding: 10px 25px;
   color: #FFF;
   background-color: #02897A;
@@ -622,7 +671,7 @@
   line-height: 24px;
   cursor: pointer;
 }
-.wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover {
+.work__product .work__product--btn button:hover, .wrapper .enterprise .enterprise__btn button:hover, .wrapper .topbar__btns button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover {
   color: #FFF;
   border: 2px solid #02897A;
   background-color: transparent;
@@ -872,6 +921,163 @@
 }
 
 * {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work__product .work__product--btn button, .topbar__right .topbar__btns button, .navbar .navbar__left .navbar__btns button, .first__in .first__section--btn button, .thirt__section .thirt__section--btn button, .price__in .price__cards .price__card .price__card--btn button, .footer .footer__row .footer__col4 .footer__col4--btn button, .wrapper .topbar__btns button, .wrapper .enterprise .enterprise__btn button {
+  padding: 10px 25px;
+  color: #FFF;
+  background-color: #02897A;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+.work__product .work__product--btn button:hover, .topbar__right .topbar__btns button:hover, .navbar .navbar__left .navbar__btns button:hover, .first__in .first__section--btn button:hover, .thirt__section .thirt__section--btn button:hover, .price__in .price__cards .price__card .price__card--btn button:hover, .footer .footer__row .footer__col4 .footer__col4--btn button:hover, .wrapper .topbar__btns button:hover, .wrapper .enterprise .enterprise__btn button:hover {
+  color: #FFF;
+  border: 2px solid #02897A;
+  background-color: transparent;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.clients__title {
+  display: flex;
+  align-items: center;
+}
+.clients__title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.clients__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+  margin-top: 70px;
+}
+
+.choose__products {
+  background-color: #22343D;
+  color: #FFF;
+  padding: 24px 0 68px 0;
+}
+.choose__products-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.choose__products-title h3 {
+  font-size: 34px;
+  line-height: 51px;
+  font-weight: 700;
+}
+.choose__products .choose__products--cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.choose__products .choose__products--cards .choose__products--card {
+  max-width: 350px;
+  border: 1px solid #FFF;
+  padding: 34px 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 10px;
+}
+.choose__products .choose__products--cards .choose__products--card .choose__card--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choose__products .choose__products--cards .choose__products--card .choose__card--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choose__products .choose__products--cards .choose__products--card .choose__card--desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.work__product {
+  padding: 100px 0 115px 0;
+  color: #FFF;
+}
+.work__product .work__product--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 73px;
+}
+.work__product .work__product--title h3 {
+  font-size: 34px;
+  line-height: 51px;
+  font-weight: 700;
+}
+.work__product .work__product--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 77px;
+}
+.work__product .work__steps {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.work__product .work__product--fist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 89px;
+}
+.work__product .work__product--fist .work__first--right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.work__product .work__product--fist .work__first--right h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.work__product .work__product--fist .work__first--right h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.work__product .work__product--fist .work__first--right p {
+  max-width: 430px;
+}
+
+@media (max-width: 530px) {
+  .work__steps .work__product--fist .work__first--left img {
+    width: 400px;
+  }
+}
+@media (max-width: 1075px) {
+  .work__steps .work__product--fist:nth-child(2) .work__first--left {
+    order: -1;
+  }
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -880,11 +1086,11 @@
 }
 
 .wrapper {
-  background-color: #141414;
+  background-color: #1F2E35;
 }
 
 .container {
-  max-width: 1165px;
+  max-width: 1265px;
   margin: 0 auto;
   padding: 0 20px;
 }

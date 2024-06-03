@@ -3,6 +3,7 @@
 @import './main';
 @import './footer';
 @import './pricing';
+@import './customers';
 
 
 *{
@@ -15,11 +16,11 @@
 }
 
 .wrapper{
-    background-color: #141414;
+    background-color: #1F2E35;
 }
 
 .container{
-    max-width: 1165px;
+    max-width: 1265px;
     margin: 0 auto;
     padding: 0 20px;
 }

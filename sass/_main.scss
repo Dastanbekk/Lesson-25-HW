@@ -417,3 +417,29 @@
     }
 
 }
+
+
+@media (max-width:960px) {
+    .companies__card{
+        .companies__left{
+            .companies__left--title{
+                h3{
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+            .companies__left--button{
+                font-size: 12px;
+                margin-top: 10px;
+                button{
+                    padding: 7px 20px;
+                }
+            }
+        }
+        .companies__right{
+            img{
+                width: 200px;
+            }
+        }
+    }
+}

@@ -47,6 +47,25 @@
         button{
             @extend %blue_btn;
         }
+        img{
+            cursor: pointer;
+
+        }
+    }
+
+    .topbar__menu{
+        display: none;
+    }
+
+    .topbar__users--btn{
+            display: none;
+
+        button{ 
+            padding: 5px 10px;
+            background-color: transparent;
+            border-radius: 50%;
+            border: 2px solid #02897A;
+        }
     }
 }
 
@@ -54,7 +73,6 @@
 
 .navbar{
     padding-top: 25px;
-    @include display_center;
     color: #FFF;
 
     .navbar__left{
@@ -84,6 +102,28 @@
             }
         }
     }
+}
 
+@media (max-width:940px) {
+    .topbar{
+        .topbar__right--links{
+            display: none;
+        }
+        .topbar__btns{
+            .primary__btn{
+                display: none;
+            }
+            .secondary__btn{
+                display: none;
+            }
+        }
+        .topbar__menu{
+            display: block;
+            cursor: pointer;
 
+        }
+        .topbar__users--btn{
+            display: block;
+        }
+    }
 }
