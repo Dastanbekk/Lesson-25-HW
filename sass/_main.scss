@@ -376,10 +376,12 @@
 }
 
 
+
 .companies__in{
     @include display_center;
     justify-content: center;
     padding-bottom: 150px;
+    padding-top: 150px;
     .companies__card{
         padding: 10px 10px 10px 52px;
         border-radius: 32px;
